@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0a0a0a;
+}
+nav{
+  background: #0a0a0a;
+}
+
+ul , a, h1 , p{
+  color: white;
+  animation: fadeNav 1.5s ease-in-out;
+}
+.hero {
+  color: white;
+  padding: 100px 0;
+}
+.progress-bar {
+  background-color: #0a0a0a;
+}
+
+.image-sec{
+  height: 200px;
+}
+
+img{
+  animation: fade 1.5s ease-in-out;
+}
+
+#skills{
+  background: #0a0a0a;
+}
+
+
+@keyframes fade {
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+}
+
+@keyframes fadeNav {
+  from{
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+}
